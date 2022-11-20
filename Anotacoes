@@ -1,0 +1,31 @@
+Classes
+- Arena (Carta ativa)
+- Mao (Cartas do jogador)
+- Jogador ()
+- Rodada (Numeros de rodadas, metodo de iniciar o jogo, )
+- Partida (Armazena todos os dados da partida)
+- Deck (Armazena todas as cartas (10))
+- Personagem (Atributos comuns dos personagens (HP E ATAQUE))
+- Tipos de Personagem (Atributos de cada raça)
+- Carta (Nome e raridade de cada carta)
+
+Personagens
+
+SUPORTE (RECUPERA HP) HP = MEIO; ATAQUE = MEIO; R/HP = METADE DO DANO DO ATAQUE CONVERTE EM VIDA PRA ELE
+
+MAGO (COPIA ATAQUE) HP = MEIO ; ATAQUE = 0 (INICIALMENTE)
+
+GUERREIRO (MEIO/MEIO) HP = METADE; ATAQUE = METADE
+
+ASSASINO (FULL ATAQUE) ATAQUE = MAX; HP = MINIMO
+
+TANKE (FULL VIDA) HP = MAX; ATAQUE = MINIMO
+
+Instruções de Game
+1 - Cada jogador recebe 5 cartas em sua mão.
+2 - Total do jogo tera 10 cartas, dessas 10, 5 seram sortidas para cada jogador.
+3 - Cada raça de Personagem tera quantidade da HP e ATAQUE diferentes.
+4 - Cada jogador podera escolhar uma carta por rodada.
+5 - Essa carta jogara com a carta escolhida por outro jogar, tirando vida.
+6 - O jogador ira perder quando acabar todas as cartas de sua mão.
+7 - Terão 2 raças com habilidades especificas
